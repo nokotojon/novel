@@ -1,4 +1,4 @@
-html, body{
+.top-wrapper{
   background-image: url("ホーム画像");
   background-position: center center;
   background-repeat: no-repeat;
@@ -15,7 +15,7 @@ h1 {
     font-size : 75px;
     margin-top :300px;
 }
-s
+
 .explanation {
   font-size :30px;
   margin-top : 50px;
@@ -58,6 +58,11 @@ s
   box-shadow :none;
 }
 
-.new {
+.signup {
+  background-image: url("新規");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
   color :red;
 }
