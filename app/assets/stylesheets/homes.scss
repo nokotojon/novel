@@ -1,2 +1,63 @@
-h1{font-size : 100px;}
-background-image : image-url("ホーム画像.jpg");
+html, body{
+  background-image: url("ホーム画像");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.text-center-text-white{
+  color : white;
+  text-align:center;
+}
+
+h1 {
+    font-size : 75px;
+    margin-top :300px;
+}
+s
+.explanation {
+  font-size :30px;
+  margin-top : 50px;
+}
+
+.btn {
+  color :black;
+  border-radius:10px;
+  padding: 20px 25px;
+  display: inline-block;
+}
+
+
+.new {
+  font-size :20px;
+  background-color : #55acee;
+  position:relative;
+  top:100px;
+  right:40px;
+  box-shadow:0px 5px blue;
+}
+
+.new:active{
+  position:relative;
+  top:110px;
+  box-shadow :none;
+}
+.login {
+  font-size :20px;
+  background-color : yellow;
+  position:relative;
+  top:100px;
+  left:40px;
+  box-shadow:0px 5px white;
+}
+
+.login:active{
+  position:relative;
+  top:110px;
+  box-shadow :none;
+}
+
+.new {
+  color :red;
+}

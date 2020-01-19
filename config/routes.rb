@@ -1,3 +1,4 @@
 Rails.application.routes.draw do
-  get 'homes/top'
+  get 'users/new'
+  get '/' => 'homes#top'
 end
